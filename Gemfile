@@ -7,6 +7,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'mimemagic', '~> 0.3.9'
 
 gem 'rails', '~> 6.1'
 gem 'bootsnap', '~> 1.5'
